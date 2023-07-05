@@ -1,0 +1,9 @@
+accelerate @ git+https://github.com/huggingface/accelerate.git@7d24bdefb5b3252505151d8c1ac0efbed3574857
+aiohttp==3.8.4
+bitsandbytes==0.39.0
+datasets==2.12.0
+peft @ git+https://github.com/huggingface/peft.git@3714aa2fff158fdfa637b2b65952580801d890b2
+tiktoken==0.4.0
+tokenizers==0.13.3
+torch==2.0.1
+transformers==4.28.1

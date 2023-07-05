@@ -1,0 +1,110 @@
+prompt-instruction:
+In the field of cyber security Q&A, questions can be divided into different types according to their nature, such as "concept explanation", "case analysis", and so on. Please brainstorm and provide as many and as detailed category divisions as possible.
+
+
+prompt-instance:
+<instruction>ToReplace</instruction>
+Now you play two roles, in which Role 1 asks questions and Role 2 as a security expert provides answers. According to the description within the <instruction> tag, provide a detailed example of a network security scenario as a Q&A format. Only one Q&A pair is required. For example: {"input": question description, "output": detailed answer}
+
+prompt-instance-1:
+<instruction>ToReplace</instruction>
+Now you play two roles, in which role 1 is a security practitioner, role 2 is a security expert with extensive knowledge in the field. According to the description within the <instruction> tag, provide a detailed example of a network security scenario as a dialogue. Only one turn is required. For example: {\"input\": The speech content of Role 1, \"output\": The speech content of Role 2}
+
+instruction:
+Concept Explanation: Explain various concepts in network security, mainly testing theoretical knowledge.
+Case Analysis: Provide a network security case for respondents to analyze the reasons, impacts and solutions.
+Technical Solution: Propose a network security requirement or a security technology application scenario for respondents to design a technical implementation and solution.
+Practical Exercise: Provide a simulated network environment for respondents to engage in attack and defense exercises.
+Security Management: Present network security management requirements and let respondents develop management strategies or plans, including security policies, security training, security awareness, etc.
+Policy and Regulation: These types of questions usually require explanations of laws and regulations related to network security, including privacy protection, data security, network attacks, and more.
+Industry Application: These types of questions typically require exploration of the application of network security in a specific industry.
+Scenario Judgment: Provide a network security event scenario and assess decision-making skills under complex situations.
+Practical Operation: Assess practical technical operation skills.
+Network Security Career Information: Provide network security-related career information and development directions.
+Network Security System: Assess an understanding of network security systems.
+Network Security Technology: Assess an understanding of specific technologies.
+Network Security Tools: Assess an understanding and use of commonly used network security tools.
+Network Security Vulnerabilities: Provide information on a software or system vulnerability and assess understanding and repair solutions.
+Network Security Protection: Assess understanding of various active and passive defense technologies.
+Network Security Testing: Tests understanding of network security testing.
+Network Security Penetration Testing: Specifically tests understanding of penetration testing.
+Security Product Testing: Tests methods and skills for testing common network security products or systems.
+Network Security Product: Tests understanding of various network security products or services.
+Network Security Standard: Tests understanding of common network security standards.
+Network Security Model: Tests understanding of network security-related models.
+Network Security Data: Provides network security-related data and tests ability to analyze and mine data.
+Network Security Architecture: Tests ability to design security architecture for complex network systems.
+Network Security Training: Tests ability to design personnel network security awareness and skills training.
+Network Security Budget: Tests ability to allocate budget and plan resources for network security projects or departments.
+Network Security Certification: Tests understanding of various network security certifications and qualifications.
+Network Security Monitoring: Tests skills for monitoring network operation status and security events.
+Network Security Audit: Tests understanding of network security audit work.
+Network Security Culture: Tests understanding of network security culture construction and promotion.
+Network Security Origins and Development: Examining the understanding of the origins and development of network security technology, theory, and practice.
+Network Security Economics: Examining the understanding of the network security industry and economy.
+Cybercrime: Examining the understanding of the nature of cybercrime.
+Network Security Project Management: Examining the understanding and skills of network security project management.
+Digital forensics: Examining the skills for electronic forensics and protection in network security incidents.
+Cybercrime-related issues: Examining the understanding of common cybercrime in network security incidents.
+Encryption and Decryption: Specialized examination of the understanding and application of encryption and decryption algorithms and techniques.
+Physical Security: Examining the understanding of physical security measures for servers, devices, and networks.
+R&D Management: Examining the understanding of the management of network security product or technology research and development processes.
+Network Security Services: Examining the understanding of various network security service models.
+Privacy and Passwords: Specialized examination of knowledge related to personal privacy protection and password management.
+Wireless and Mobile Security: Examining the understanding of wireless network and mobile device security.
+IoT Security: Examining the understanding of the security aspects of IoT devices and systems.
+Cloud Security: Examining the understanding of the security environment and architecture of cloud computing services.
+Cloud Service Security Management: Examining the understanding and implementation of security management in cloud service environments.
+Blockchain Security: Examining the understanding of blockchain technology and its application environment security.
+Security Software Development: Examining understanding of the security mechanisms throughout the stages of the security software development lifecycle.
+Industry Information Security: Examining understanding of the security aspects of a specific industry's information system.
+DDoS Defense: Specifically examining the defense methods and techniques for DDoS attacks.
+Intrusion Detection: Examining understanding of intrusion detection technology.
+Honeypot Technology: Examining understanding of honeypot technology and its applications.
+Vulnerability Management: Examining understanding of the management process and techniques for software/system vulnerabilities, including vulnerability discovery, assessment, remediation, and disclosure.
+Security Proxy/Gateway: Examining understanding of network security proxy and gateway products.
+Security Operations and Maintenance: Examining understanding of the daily operations and maintenance management of network systems and security devices.
+Social Engineering: Examining understanding of social engineering techniques and prevention methods.
+Internal Threats: Examining skills for identifying and managing internal threats within an organization.
+DevSecOps: Examining understanding of DevSecOps and how to apply security knowledge and skills to the software development and operations (SDLC) process throughout the entire lifecycle.
+Big Data Security: Examining understanding of the security aspects of the big data environment and processing technology.
+Cyberspace Governance: Examining understanding of cyberspace management and governance.
+Cyberspace Legislation: Examining understanding of relevant laws and regulations related to cyberspace.
+National Cybersecurity Strategy: Examining understanding of national-level cybersecurity strategies and policies.
+CERT/CSIRT: Examining understanding and operation of CERT (Computer Emergency Response Team) and CSIRT (Computer Security Incident Response Team).
+Network Ethics and Morality: Examining understanding of ethical and moral issues in the network environment.
+Victim Protection: Examining understanding of victim protection and prevention of network crimes.
+Network Social Psychology: Examining understanding of psychological issues in the network environment.
+Network Security Behavioral Psychology: Examining the understanding of the psychological mechanisms of personnel security behaviors in the network environment.
+Online Public Opinion Guidance: Examining the understanding and skills of monitoring and guiding network public opinion.
+Network Piracy Protection: Examining the understanding of network intellectual property protection and network piracy issues.
+System/Software Security Design: Examining methods for integrating security mechanisms into software and system design.
+Cyber Space Mapping: Examining methods and techniques for mapping network space assets and environments.
+Security Patch Management: Examining management methods and skills for all types of system and software patches.
+Network Security Epistemology: Examining understanding of the research methodology and cognitive framework of network security.
+Network Space Boundary: Examining understanding of the boundaries and jurisdiction of the network space.
+Mobile Payment Security: Examining understanding of the security of mobile payment environment and its technology.
+Artificial Intelligence Security: Examining understanding of the security and management methods of artificial intelligence technology and systems, .
+New Network Security Technologies: Tracking emerging network security technologies and their development, examining understanding and application of the latest technologies.
+Integrated Security Products: Examining understanding of integration and interoperability methods for different security products.
+Cyber Threat Intelligence: Examining understanding of methods for collecting, analyzing, and applying cyber threat intelligence.
+Cyber Threat Propagation: Examining understanding of the propagation characteristics and mechanisms of cyber threats in the cyberspace.
+Network Security Frequency: Examining understanding of analysis methods and applications of personnel action frequency characteristics in a network environment.
+Vehicle Network Security: Examining understanding of vehicle network and information system security and protection technologies.
+IoT Security Management: Examining understanding of security management for IoT systems.
+Drone Security: Examining understanding of security and protection methods for drone systems.
+Network Fraud Monitoring and Early Warning: Examining understanding of monitoring, identifying, and early warning methods for network fraud behaviors.
+Security Equipment Performance Testing: Examining understanding of performance indicators and testing methods for various types of network security equipment.
+Cyber Threat Perception: Examining understanding of methods and techniques for perceiving the overall cyber threat situation in cyberspace.
+Network Security Pre-Research and Development: Examining understanding of pre-research and development of the latest network security technologies and planning capabilities.
+Cybersecurity Monitoring and Early Warning System Design: Examining understanding of the design principles and techniques for cybersecurity monitoring and early warning systems.
+Network Security Experience Training and Management: Examining understanding of network security experience and training project management.
+Network Security Strategy Research: Examining understanding of research and techniques for higher-level network security strategies.
+Cybersecurity and Social Impacts: Examining understanding of the impact of cybersecurity events on society and related research.
+Network Security Talent Training: Examining understanding and skills in network security talent training.
+Network Security Plan Design: Examining understanding and techniques for emergency response plan design for network security incidents.
+Network Malware Technology Analysis: Analyzing the technical means and evolution trends of network malware, examining understanding of network malware analysis.
+Malicious Code Analysis Technology: Examining understanding and application of malicious code analysis technology.
+APT Attack Log Analysis: Providing logs of APT attack events, examining skills in log analysis and tracking.
+Network Log Forensics Technology: Examining understanding and application of electronic forensics techniques on network logs.
+Log Analysis: Examines skills in operating system log analysis and application.

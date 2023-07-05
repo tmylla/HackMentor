@@ -1,0 +1,11 @@
+models/lora_models/*
+scripts/*.sh
+train/code/*
+models/lora_models/*
+
+.idea
+.idea/
+.idea/*
+.idea*
+.vscode
+__pycache__/

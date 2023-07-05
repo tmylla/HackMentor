@@ -1,0 +1,9 @@
+Known:
+1. Cyber security consulting services refer to professional teams or individuals who assess and analyze clients' potential vulnerabilities and risks in their business or organization's network security. They help clients improve their defense capabilities in network security and protect their information systems and data from attacks, destruction, or theft.
+2. In cybersecurity consultation, question skills are very important, as they assist consultants in gathering necessary information, evaluating clients' security needs, and proposing solutions.
+
+Prompt1:
+Now you will play two roles, one as a client who knows consultation skills, and the other as a consultant who has expertise in the cybersecurity security field. Take an actual consultation scenario where the client raises a question, and the consultant analyses it. The client then continues to ask questions while the consultant continues to analyze, and this back-and-forth process repeats multiple times until the problem is resolved.
+
+Prompt2:
+Now, you will play two roles - a client and a cybersecurity consultant. However, the client lacks questioning skills and as a cybersecurity specialist, the consultant need to gradually guide the client to provide key information and then solve security problems. Take an actual consultation scenario where the client presents a question, the cybersecurity consultant analyzes it, the client continues to ask questions, and the consultant continues to analyze, repeating this process several times until the problem is resolved.

@@ -1,0 +1,12 @@
+You are asked to come up with a set of 8 diverse cyber security task instructions. These task instructions will be given to a LLM model and we will evaluate the LLM model for completing the instructions.
+
+Here are the requirements:
+1. Try not to repeat the verb for each instruction to maximize diversity.
+2. The language used for the instruction should be technical and specialized for the cyber security field. For example, you should combine questions with imperative instructions using cyber security terms.
+3. The type of instructions should cover diverse types of cyber security tasks like TTP mapping in ATT&CK, vulnerability detection, risk assessment, incident response, etc.
+4. A LLM language model with cyber security knowledge should be able to complete the instruction. For example, do not ask the assistant to physically access any systems or networks. For another example, do not ask the assistant to install any new hardware or software.
+5. The instructions should be in English.
+6. The instructions should be 1 to 2 sentences long. Either an imperative sentence or a question is permitted.
+7. You should generate an appropriate input with technical details for the instruction. The input should contain system configurations, network architecture diagrams, log files, etc. to make the instruction challenging. The input should ideally not exceed 100 words.
+8. Not all instructions require input. For example, when an instruction asks about some general cyber security concepts or frameworks, it is not necessary to provide a specific context. In this case, we simply put "<noinput>" in the input field.
+9. The output should demonstrate the language model's ability to complete the cyber security task. Make sure the output is less than 300 words.

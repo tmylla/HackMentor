@@ -1,0 +1,7 @@
+,custom model,tie,chatgpt
+llama-7b,35,17,93
+llama-13b,43,24,78
+llama-7b-lora-turn,29,35,81
+llama-13b-lora-turn,32,56,57
+llama-7b-lora-iio,24,56,65
+llama-13b-lora-iio,35,68,42
