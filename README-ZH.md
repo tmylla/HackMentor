@@ -1,6 +1,6 @@
 # HackMentor - 网络安全LLMs领域数据微调
 
-![HackMentor Logo](assets\HackMentor.png)
+![HackMentor Logo](assets/HackMentor.png)
 
 欢迎来到 HackMentor，一个专注于领域数据微调的网络安全LLMs项目。本项目旨在提供高效的预训练语言模型（LLMs），以帮助解决网络安全领域的挑战。
 
@@ -30,7 +30,7 @@ HackMentor项目主要包括以下三部分：
 | vicuna-13b-lora-iio | [download](https://drive.google.com/drive/folders/1SF51j4KDyGM356vLx-KuKIni7xYWNbTf?usp=drive_link) |
 | llama-7b-lora-turn | [download](https://drive.google.com/drive/folders/1e-Hb3YHlo25y6CL-RhRnrQLTurhgF1Af?usp=drive_link) |
 | llama-13b-lora-turn | [download](https://drive.google.com/drive/folders/1lElL6WH1MUWTQZge5utMnmH7aUNIiheK?usp=drive_link) |
-|  |  |
+
 
 *Notes*：
 1. HackMentor命名规则为：{基座模型}-{模型尺寸}-{微调方式}-{微调数据}，其中，基座模型可取Llama/Vicuna，模型尺寸有7b/13b，微调方式有Lora（将来拟加入全量微调），微调数据有iio和turn，iio表示指令数据Instruction、Input、Output，turn表示对话数据。
@@ -63,7 +63,7 @@ HackMentor项目主要包括以下三部分：
     | vicuna-7b | vicuna-7b-lora-iio | security | `python chat.py --base_model models/pretrained/vicuna-7b  --lora_model models/lora_models/vicuna-7b-lora-iio` |
     | llama-7b | llama-7b-lora-turn | security | `python chat.py --base_model models/pretrained/llama-7b --lora_model models/lora_models/llama-7b-lora-turn` |
     | ...  | ... | ... | ... |
-    |  |  |  |  |
+
 
 请注意，以上代码示例仅用于说明目的，您可能需要根据自己的实际情况进行适当调整。
 

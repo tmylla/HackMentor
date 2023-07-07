@@ -2,7 +2,7 @@
 
 # HackMentor: Fine-Tuning Large Language Models for Cybersecurity
 
-![HackMentor Logo](assets\HackMentor.png)
+![HackMentor Logo](assets/HackMentor.png)
 
 HackMentor is a cybersecurity LLMs (Large Language Models) focused on domain-specific data fine-tuning. This project consists of three main parts: data construction, model training, and model evaluation.
 
@@ -30,7 +30,7 @@ All HackMentor weights are accessible [here]((https://drive.google.com/drive/fol
 | vicuna-13b-lora-iio | [download](https://drive.google.com/drive/folders/1SF51j4KDyGM356vLx-KuKIni7xYWNbTf?usp=drive_link) |
 | llama-7b-lora-turn | [download](https://drive.google.com/drive/folders/1e-Hb3YHlo25y6CL-RhRnrQLTurhgF1Af?usp=drive_link) |
 | llama-13b-lora-turn | [download](https://drive.google.com/drive/folders/1lElL6WH1MUWTQZge5utMnmH7aUNIiheK?usp=drive_link) |
-|  |  |
+
 
 *Notes:*
 1. The naming convention for HackMentor is as follows: {base model}-{model size}-{fine-tuning method}-{fine-tuning data}. Here, the base model can be Llama/Vicuna, the model size can be 7b/13b, the fine-tuning method can be Lora (with plans to include full-parameters fine-tuning), and the fine-tuning data can be iio or turn, where iio represents Instruction, Input, Output data, and turn represents conversation data.
@@ -64,7 +64,7 @@ To deploy and utilize the Lora-weights model locally, follow the steps below:
     | vicuna-7b | vicuna-7b-lora-iio | security | `python chat.py --base_model models/pretrained/vicuna-7b  --lora_model models/lora_models/vicuna-7b-lora-iio` |
     | llama-7b | llama-7b-lora-turn | security | `python chat.py --base_model models/pretrained/llama-7b --lora_model models/lora_models/llama-7b-lora-turn` |
     | ...  | ... | ... | ... |
-    |  |  |  |  |
+
 
 Please note that the above code examples are for illustrative purposes only and you may need to make appropriate adjustments based on your specific situation.
 
