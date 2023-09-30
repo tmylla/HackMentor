@@ -1,8 +1,10 @@
-# HackMentor - 网络安全LLMs领域数据微调
+# [HackMentor - 网络安全LLMs领域数据微调](HackMentor.pdf)
 
 ![HackMentor Logo](assets/HackMentor.png)
 
 欢迎来到 HackMentor，一个专注于领域数据微调的网络安全LLMs项目。本项目旨在提供高效的预训练语言模型（LLMs），以帮助解决网络安全领域的挑战。
+
+详细的论文解读可见：[中科院信工所 | HackMentor-面向网络安全领域的大语言模型微调](https://mp.weixin.qq.com/s/EnGdEm0p6cXrdk42yrB90w)
 
 ## 项目概述
 
@@ -16,7 +18,7 @@ HackMentor项目主要包括以下三部分：
 
 ## Lora-weights 模型
 
-我们目前正在发布可供下载的Lora-weights模型。请注意，在我们的论文被接受后，将发布完整的代码。感谢您的耐心等待。
+我们提供可供下载的Lora-weights模型。
 
 ### Lora-weights 下载
 
@@ -67,11 +69,42 @@ HackMentor项目主要包括以下三部分：
 
 请注意，以上代码示例仅用于说明目的，您可能需要根据自己的实际情况进行适当调整。
 
+
+## 问答
+
+1. Q１：关于计算资源和训练时间。
+   
+   A１：计算资源和模型大小、训练方式有关。LoRA 方式微调 7/13b 的模型，一张 A100 即可；全量微调的话，7b 需要 2-3 A100，13b 是 4 张 A100 刚好跑满。
+
+   训练时间和数据量、训练方式有关。使用 lora 方式，3w 数据一张 A100 跑 4 小时，全量微调的话时间翻 3-5 倍。
+   （训练时间可能有略微出入，仅供参考）
+
+2. Q２：是否对某一安全任务进行针对性训练并验证任务效果，如安全域信息抽取？
+   
+   A２：否。本工作的目的是面向安全通识能力的LLM整体安全能力提升/激发。
+
 ## 参与贡献
 
 我们非常欢迎对于 HackMentor 项目的贡献。如果您发现任何问题或有改进建议，请提交 issue 或发送 pull 请求。您的贡献将会使这个项目变得更好。
 
+## 致谢
 
-## 更多代码与数据
+本项目参考了以下开源项目，在此对相关项目和研究开发人员表示感谢。
 
-感谢您的耐心等待...
+- [Llama by Meta](https://github.com/facebookresearch/llama)
+- [FastChat by @im-sys](https://github.com/lm-sys/FastChat)
+- [Stanford_alpaca by @tatsu-lab](https://github.com/tatsu-lab/stanford_alpaca)
+
+
+## Citation
+如果您使用了本项目的数据或代码，或者我们的工作对您有帮助，请注明出处如下：
+
+```
+@inproceedings{hackmentor2023,
+  title={HackMentor: Fine-tuning Large Language Models for Cybersecurity},
+  author={Jie Zhang, Hui Wen*, Liting Deng, Mingfeng Xin, Zhi Li, Lun Li, Hongsong Zhu, and Limin Sun},
+  booktitle={2023 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
+  year={2023},
+  organization={IEEE}
+}
+```

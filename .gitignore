@@ -1,7 +1,4 @@
 models/lora_models/*
-scripts/*.sh
-train/code/*
-models/lora_models/*
 
 .idea
 .idea/

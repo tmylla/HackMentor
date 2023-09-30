@@ -1,12 +1,13 @@
 **[中文](README-ZH.md)** | [English](README.md)
 
-# HackMentor: Fine-Tuning Large Language Models for Cybersecurity
+# [HackMentor: Fine-Tuning Large Language Models for Cybersecurity](HackMentor.pdf)
 
 ![HackMentor Logo](assets/HackMentor.png)
 
 HackMentor is a cybersecurity LLMs (Large Language Models) focused on domain-specific data fine-tuning. This project consists of three main parts: data construction, model training, and model evaluation.
 
-**(Please note that the complete code will be published after the acceptance of the paper. Thank you for your patience.)**
+Also, you can get more detailed information by reading [paper interpretation: 中科院信工所 | HackMentor-面向网络安全领域的大语言模型微调](https://mp.weixin.qq.com/s/EnGdEm0p6cXrdk42yrB90w)
+
 
 ## Features
 
@@ -16,7 +17,7 @@ HackMentor is a cybersecurity LLMs (Large Language Models) focused on domain-spe
 
 ## Lora-weights Model
 
-We are currently releasing the Lora-weights model, which is available for download. Please note that the complete code will be released after the acceptance of our paper. Thank you for your patience.
+We release the Lora-weights model, which is available for download.
 
 ### Download Lora-weights
 
@@ -69,10 +70,44 @@ To deploy and utilize the Lora-weights model locally, follow the steps below:
 Please note that the above code examples are for illustrative purposes only and you may need to make appropriate adjustments based on your specific situation.
 
 
+
+## QA
+
+1. Q1: About computing resources and training time.
+   
+   A1: Computing resources are dependent on model size and training methods. For LoRA fine-tuning of the 7/13b model, 1\*A100 GPU is sufficient; for full-parameters fine-tuning, the 7b model requires 2/3\*A100 GPUs, while the 13b model requires 4\*A100 GPUs.
+   
+   Training time is influenced by the amount of data and training methods. With the LoRA method, using 30,000 data samples, an A100 GPU can complete training in approximately 4 hours; for full-parameters fine-tuning, the training time is expected to be around 3-5 or more times longer than the LoRA method.
+
+   (Please note that training time may vary slightly and is provided for reference only.)
+
+2. Q２：Do you train and validate the effectiveness of a specific security task with LLMs, such as security information extraction?
+   
+   A２：No, the purpose of this work is to enhance/ignite the overall security capabilities of LLM for general security skills.
+
+
 ## Contribution
 
 We welcome contributions to the HackMentor project. If you find any issues or have any improvement suggestions, please submit an issue or send a pull request. Your contributions will help make this project better.
 
-## More
 
-Coming soon ...
+
+## Acknowledgements
+This project refers to the following open source projects, and I would like to express my gratitude to the relevant projects and research and development personnel.
+- [Llama by Meta](https://github.com/facebookresearch/llama)
+- [FastChat by @im-sys](https://github.com/lm-sys/FastChat)
+- [Stanford_alpaca by @tatsu-lab](https://github.com/tatsu-lab/stanford_alpaca)
+
+
+## Citation
+If you use the data or code of this project, or if our work is helpful to you, please state the citation
+
+```
+@inproceedings{hackmentor2023,
+  title={HackMentor: Fine-tuning Large Language Models for Cybersecurity},
+  author={Jie Zhang, Hui Wen*, Liting Deng, Mingfeng Xin, Zhi Li, Lun Li, Hongsong Zhu, and Limin Sun},
+  booktitle={2023 IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
+  year={2023},
+  organization={IEEE}
+}
+```
