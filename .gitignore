@@ -1,5 +1,7 @@
 models/lora_models/*
 
+*.html
+
 .idea
 .idea/
 .idea/*
